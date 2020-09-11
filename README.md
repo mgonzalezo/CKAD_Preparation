@@ -4,7 +4,7 @@ Repository with some reference information about the exam, tips &amp; tricks and
 CKAD is a hands-on exam provided by CNCF (Cloud Native Computing Foundation). You can see get all the general details of this exam here:
 https://www.cncf.io/certification/ckad/
 
-There are many forums and guidelines on this exam, I will try to add the preparation and additional details I found while taking the CKAD exam.
+There are many forums and guidelines on this exam, I will try to explain the preparation I went through and some key details I found while taking the exam.
 
 # 1. Preparation & Tips
   - Preparation for this exam, difference to many people may think, is not only about how fast you execute the commands. Instead, you must know where to look for and what is the best approach to solve a issue. For that, a solid Theory of the following concepts is important:
@@ -24,7 +24,7 @@ There are many forums and guidelines on this exam, I will try to add the prepara
     - alias kdel="kubectl delete"
     - alias ka="kubectl apply -f "
     - alias kn="kubectl config set-context --current --namespace" (use this with extreme caution, changing namespaces during exam means you need to return to default ns for every single question).
-  - A hands-on exam like this one demands a high confidence in imperative commands and Linux, so be sure you are prepare to do some parsing operations, remote connections, edit yaml files on the go and you are familiar with vim/nano/vi text editor in Linux.
+  - A hands-on exam like this one demands a high confidence in imperative commands and Linux, so be sure you are prepared to do some basic parsing operations, remote SSH connections, sudo commands, edit yaml files on the go and use vim/nano/vi text editor in Linux easily.
   - I mention in the previous bullet about imperative commands. The following commands I used the most during my preparation & exam:
     - Generate POD Manifest YAML file (-o yaml). Don't create it(--dry-run)
         - kubectl run nginx --image=nginx --restart=Never --dry-run -o yaml
@@ -44,9 +44,9 @@ There are many forums and guidelines on this exam, I will try to add the prepara
   - For preparation, in addition to different online courses in the market, you can follow different Kubernetes guides in you own Kubernetes Cluster:
   
     - Creating Google Cloud Kubernetes cluster:
-        gcloud config set project [Name]
-        gcloud config set compute/zone [Zone]
-        gcloud container clusters create kuboperu --num-nodes=[Number of initial nodes]
+        - gcloud config set project [Name]
+        - gcloud config set compute/zone [Zone]
+        - gcloud container clusters create kuboperu --num-nodes=[Number of initial nodes]
 
 # 2 Reference Links
   
