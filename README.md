@@ -51,17 +51,17 @@ There are many forums and guidelines on this exam, I will try to add the prepara
 # 2 Reference Links
   
    - Practice Links:
-     https://github.com/dgkanatsios/CKAD-exercises
-     https://github.com/twajr/ckad-prep-notes#tasks-from-kubernetes-doc
+     - https://github.com/dgkanatsios/CKAD-exercises
+     - https://github.com/twajr/ckad-prep-notes#tasks-from-kubernetes-doc
      
    - Useful Tips & Tricks:
-     https://github.com/saaguero/ckad-notes/#my-experience-and-tips
-     https://github.com/twajr/ckad-prep-notes#tips
+     - https://github.com/saaguero/ckad-notes/#my-experience-and-tips
+     - https://github.com/twajr/ckad-prep-notes#tips
    
    - Reference from other previous experiences:
-     https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681
-     https://medium.com/chotot/tips-tricks-to-pass-certified-kubernetes-application-developer-ckad-exam-67c9e1b32e6e
-     https://medium.com/@alexellisuk/kubernetes-1-18-broke-kubectl-run-heres-what-to-do-about-it-2a88e5fb389a
+     - https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681
+     - https://medium.com/chotot/tips-tricks-to-pass-certified-kubernetes-application-developer-ckad-exam-67c9e1b32e6e
+     - https://medium.com/@alexellisuk/kubernetes-1-18-broke-kubectl-run-heres-what-to-do-about-it-2a88e5fb389a
 
 
 
