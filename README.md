@@ -1,7 +1,7 @@
 # CKAD_Preparation
 Repository with some reference information about the exam, tips &amp; tricks and Reference URLs.
 
-CKAD is a hands-on exam provided by CNCF (Cloud Native Computing Foundation). You can see get all the general details of this exam here:
+CKAD is a hands-on exam provided by CNCF (Cloud Native Computing Foundation). You can get all the general details of this exam here:
 https://www.cncf.io/certification/ckad/
 
 There are many forums and guidelines on this exam, I will try to explain the preparation I went through and some key details I found while taking the exam.
